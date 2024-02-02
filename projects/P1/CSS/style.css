@@ -1,0 +1,26 @@
+body {
+    padding: 20px 50px;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-duration: 400;
+    transition: all .5s ease-in-out;
+}
+
+.btn {
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+    background: royalblue;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.darkMode{
+    background: #151515;
+    color: #fff;
+}

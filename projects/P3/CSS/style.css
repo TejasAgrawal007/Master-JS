@@ -1,0 +1,41 @@
+body {
+    font-size: 28px;
+    font-family: cursive;
+    background: #fff;
+    color: #000;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    background: #000;
+    z-index: 10;
+    width: 100%;
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+}
+.content{
+    padding: 10px 50px;
+    margin: 100px auto 0px auto;
+}
+
+
+.progress_container{
+    height: 8px;
+    width: 100%;
+    background: #121212;
+}
+
+.progressBar{
+    height: 8px;
+    background: #229e48;
+    width: 0%;
+}
+
+.dark_mode{
+    background: #151515;
+    color: #fff;
+}

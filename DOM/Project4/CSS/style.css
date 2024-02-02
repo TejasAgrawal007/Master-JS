@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151515;
+}
+
+.container {
+    color: #fff;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    text-align: center;
+}
+#guess {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.guessField{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+}
+
+.guessSubmit{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 8px; 
+    margin-top: 20px;
+    background: lightslategray;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+}
+
+.resultParse {
+    margin-top: 20px;
+}

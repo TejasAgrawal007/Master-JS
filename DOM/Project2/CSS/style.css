@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../img/dmitrii-vaccinium-9qsK2QHidmg-unsplash.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #121212;
+}
+
+.container{
+   
+}
+
+.container > h1{
+     font-size: 40px;
+}
+
+form{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+form > p{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+input{
+    padding: 4px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background: transparent;
+    width: 70%;
+    
+    font-weight: 700;
+}
+
+.btn{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    background: lightseagreen;
+    color: #fff;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.results{
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+
+#weight-guide{
+    margin-top: 20px;
+}
+
+#weight-guide > p{
+    margin-top: 20px;
+    font-weight: bolder;
+}
